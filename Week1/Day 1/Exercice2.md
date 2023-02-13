@@ -20,6 +20,12 @@ find ~ -type f -user $USER > /tmp/findme 2> /dev/null
 > `` 2> /dev/null``, the number 2 is used to redirect the output of the stderr stream to /dev/null
 > for example if we have a command like ``command_line 2> output_errors_file`` that will redirects any error produced by ``command_line`` to the ``output_errors_file`` file.
 
+- all subdirectories of /etc,
+
+It can be done with the command:
+```
+find /etc -type d
+```
 
 - all regular files under your home directory that have not been modified in the last 10 days
 
