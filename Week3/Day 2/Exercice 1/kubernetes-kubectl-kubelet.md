@@ -18,11 +18,11 @@ Now let's discover binaries to in the kubernetes/server/bin:
 <pre>
     <code>
     ```bash
-    ismail@DESKTOP-7Q73KUH:~/kubernetes/server$ cd bin
-    ismail@DESKTOP-7Q73KUH:~/kubernetes/server/bin$ ls
-    apiextensions-apiserver  kube-apiserver.docker_tag  kube-controller-manager.docker_tag  kube-proxy             kube-scheduler             kubeadm          kubelet
+    cd kubernetes/server/bash
+    ls
+    <!-- apiextensions-apiserver  kube-apiserver.docker_tag  kube-controller-manager.docker_tag  kube-proxy             kube-scheduler             kubeadm          kubelet
     kube-aggregator          kube-apiserver.tar         kube-controller-manager.tar         kube-proxy.docker_tag  kube-scheduler.docker_tag  kubectl          mounter
-    kube-apiserver           kube-controller-manager    kube-log-runner                     kube-proxy.tar         kube-scheduler.tar         kubectl-convert
+    kube-apiserver           kube-controller-manager    kube-log-runner                     kube-proxy.tar         kube-scheduler.tar         kubectl-convert -->
     ```
     </code>
 </pre>
