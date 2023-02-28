@@ -17,7 +17,7 @@ Now let's discover binaries to in the kubernetes/server/bin:
 
 <pre>
     <code>
-    ```shell
+    ```bash
     ismail@DESKTOP-7Q73KUH:~/kubernetes/server$ cd bin
     ismail@DESKTOP-7Q73KUH:~/kubernetes/server/bin$ ls
     apiextensions-apiserver  kube-apiserver.docker_tag  kube-controller-manager.docker_tag  kube-proxy             kube-scheduler             kubeadm          kubelet
