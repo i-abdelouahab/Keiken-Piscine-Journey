@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // task 1
+        let a = 1, b = 1;
+        let c = ++a; // 2, ++a will increment the value of a and then assigns it to c.
+        let d = b++; // 1, this will assign the value of b to d, and then increment the value of b.
+ 
+
+        // task 2
+        let e = 2;
+        let x = 1 + (e *= 2); // x = 5, e = 4
+
+        // task 3
+        "" + 1 + 0 // 10
+        "" - 1 + 0 // -1
+        true + false // true = 1 or false = 0 , result = 1
+        6 / "3" // 2
+        "2" * "3" // 6
+        4 + 5 + "px" // 9px
+        "$" + 4 + 5 // $45
+        "4" - 2 // 2
+        "4px" - 2 // null
+        "  -9  " + 5 // '-9 5'
+        "  -9  " - 5 // -14
+        null + 1 // 1
+        undefined + 1 // null
+        " \t \n" - 2 // -2
+
+        // task 4
+        //let g = prompt("First number?", 1);
+        //let h = prompt("Second number?", 2);
+        //alert(g + h); // 12 which is false, because here we just concatenate the string "1" and "2"
+        // we need to convert them to number first.
+
+        let g = Number(prompt("First number?", 1));
+        let h = Number(prompt("Second number?", 2));
+
+        alert(g + h); // 12
+    </script>
+</body>
+</html>

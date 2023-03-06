@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // task 1
+        if ("0") {
+            alert( 'Hello' ) // This alert will be shown, because "0" isn't empty
+        }
+
+        // task 2, the official name of javascript
+        let userInput = prompt("What's the “official” name of JavaScript?", "Javascript")
+        if(userInput == "ECMAScript") {
+            alert("Right!")
+        } else {
+            alert("You don't know? “ECMAScript”!")
+        }
+        // I should get "You don't know? “ECMAScript”!"
+
+
+        //let message;
+
+        // if (login == 'Employee') {
+        // message = 'Hello';
+        // } else if (login == 'Director') {
+        // message = 'Greetings';
+        // } else if (login == '') {
+        // message = 'No login';
+        // } else {
+        // message = '';
+        // }
+
+        let message = (login == 'Employee') ? 'Hello' :
+                      (login == 'Director') ? 'Greetings' :
+                      (login == '') ? 'No login' :
+                       '';
+
+
+
+
+    </script>
+</body>
+</html>
