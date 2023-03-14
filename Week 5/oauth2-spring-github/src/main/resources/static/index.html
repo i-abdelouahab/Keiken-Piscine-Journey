@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>OAuth Spring</title>
+    <meta name="description" content=""/>
+    <meta name="viewport" content="width=device-width"/>
+    <base href="/"/>
+    <link rel="stylesheet" type="text/css" href="/webjars/bootstrap/css/bootstrap.min.css"/>
+    <script type="text/javascript" src="/webjars/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container unauthenticated">
+    Login ith GitHub: <a href="/oauth2/authorization/github">click here</a>
+</div>
+<div class="container authenticated" style="display:none">
+    Logged in as: <span id="user"></span>
+        <button onClick="logout()" class="btn btn-primary">Logout
+            <script>
+                let logout = function() {
+                    $.post("/logout", function() {
+                        $("#user").html('');
+                        $(".unauthenticated").show();
+                        $(".authenticated").hide();
+                    })
+                    return true;
+                }
+            </script>
+        </button>
+    <div class="container my-5">
+        <h1 class="text-center">OAuth 2 Tutorial</h1>
+        <div class="steps row my-5">
+            <div class="step col-md-4">
+                <h2>User Authentication</h2>
+                <p>The user logs in to the client application, which sends an authorization request to the authorization server.</p>
+            </div>
+            <div class="step col-md-4">
+                <h2>Authorization Grant</h2>
+                <p>The authorization server authenticates the user and issues an authorization grant to the client application.</p>
+            </div>
+            <div class="step col-md-4">
+                <h2>Access Token Request</h2>
+                <p>The client application sends the authorization grant to the authorization server, requesting an access token.</p>
+            </div>
+            <div class="step col-md-6">
+                <h2>Access Token Issuance</h2>
+                <p>The authorization server validates the authorization grant and issues an access token to the client application.</p>
+            </div>
+            <div class="step col-md-6">
+                <h2>Resource Access</h2>
+                <p>The client application presents the access token to the resource server, which validates the token and grants access to the requested resource.</p>
+            </div>
+        </div>
+        <p>To use OAuth 2 in your web application, you will need to register your application with the authorization server and obtain your client ID and client secret. You will also need to specify the scopes for which you are requesting access.</p>
+        <p>Here's an example of how to request access to a user's photos on a social media platform:</p>
+        <ol>
+            <li>Your web application sends an authorization request to the authorization server, including your client ID, the requested scopes, and a redirect URI where the user will be redirected after they authenticate.</li>
+            <li>The user is prompted to log in to the social media platform and grant access to your application.</li>
+            <li>If the user grants access, the authorization server issues an authorization grant to your web application, which you can use to request an access token.</li>
+            <li>Your web application sends the authorization grant to the authorization server, which verifies the grant and issues an access token.</li>
+            <li>Your web application can now use the access token to access the user's photos on the social media platform.</li>
+        </ol>
+    </div>
+</div>
+<script type="text/javascript">
+
+    $.get("/user", function(data) {
+        $("#user").html(data.name);
+        $(".unauthenticated").hide()
+        $(".authenticated").show()
+    });
+</script>
+</body>
+</html>
