@@ -158,4 +158,4 @@ The team can plan the first deployment by identifying the requirements for the p
 >Labels: Testing, Quality Assurance, Deployment 
 >Due Date: 9 weeks from sprint start date
 
-![[Sprint SI.png]]
+![Space industry sprint]("./sprint-si.png")
