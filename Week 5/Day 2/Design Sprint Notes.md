@@ -27,7 +27,7 @@ The design Sprint uses the original concept of the sprint to describe a period o
 - Increase speed
 - Increase efficiency
 - Increase focus
-- Co-creation effect (IKEA Effect)
+- Co-creation effect
 - To have clear process
 
 ### Design Sprint for Start-up & Enterprise
@@ -39,3 +39,9 @@ In both startup and enterprise contexts, a design sprint can be an effective way
 >For enterprises, a design sprint can help accelerate the product design and development process, enabling them to work more like a fast-moving startup. By compressing the timeline and focusing on rapid experimentation and learning, enterprises can reduce the amount of time and resources spent on product exploration and development.
 
 Ultimately, whether you validate your product or product feature yourself or let the market do it, it's likely that validation will be necessary at some point. By using a design sprint to validate ideas and concepts early on, you can save time and resources in the long run and increase your chances of success.
+
+### WHEN NOT TO USE DESIGN SPRINT
+
+- The product is already very well-defined
+- The business opportunity isn't clear
+- You won't break up with your idea (The IKEA Effect)
