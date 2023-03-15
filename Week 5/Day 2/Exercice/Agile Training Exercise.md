@@ -102,13 +102,13 @@ The team can plan the first deployment by identifying the requirements for the p
 >Description: Users should be able to log in to the accounting software using their username and password. 
 >Assignee: Front-end Developer 
 >Labels: Login, Authentication, Front-end 
->Due Date: 1 week from sprint start date
+>Due Date: 2 week from sprint start date
 
 >Task 2: Design the dashboard interface for the software 
 >Description: Create a user-friendly dashboard interface that displays key financial metrics and performance indicators. 
 >Assignee: UX/UI Designer 
 >Labels: Dashboard, UI/UX, Design 
->Due Date: 2 weeks from sprint start date
+>Due Date: 1 weeks from sprint start date
 
 >Task 3: Implement the charting library for the software 
 >Description: Integrate a charting library to display financial data in a visually appealing and easy-to-understand format. 
@@ -120,43 +120,43 @@ The team can plan the first deployment by identifying the requirements for the p
 >Description: Implement a module that allows users to manage customer information, including contact details, payment terms, and credit limits. 
 >Assignee: Back-end Developer 
 >Labels: Customer Management, Back-end, Module 
->Due Date: 4 weeks from sprint start date
+>Due Date: 3 weeks from sprint start date
 
 >Task 5: Build the invoicing module 
 >Description: Implement a module that allows users to generate and send invoices to customers, track payment status, and manage outstanding invoices. 
 >Assignee: Back-end Developer 
 >Labels: Invoicing, Back-end, Module 
->Due Date: 4 weeks from sprint start date
+>Due Date: 3 weeks from sprint start date
 
 >Task 6: Integrate third-party API for space industry data 
 >Description: Integrate a third-party API to provide relevant space industry data for financial analysis and reporting. 
 >Assignee: Technical Architect 
 >Labels: API Integration, Technical Architecture 
->Due Date: 5 weeks from sprint start date
+>Due Date: 3 weeks from sprint start date
 
 >Task 7: Design and implement the reporting module 
 >Description: Implement a module that generates financial reports based on user-selected parameters, including balance sheets, income statements, and cash flow statements. 
 >Assignee: Back-end Developer 
 >Labels: Reporting, Back-end, Module 
->Due Date: 6 weeks from sprint start date
+>Due Date: 3 weeks from sprint start date
 
 >Task 8: Develop the search functionality for the software 
 >Description: Implement a search feature that allows users to search for transactions, invoices, and other financial information. 
 >Assignee: Front-end Developer 
 >Labels: Search, Front-end, Functionality 
->Due Date: 7 weeks from sprint start date
+>Due Date: 3 weeks from sprint start date
 
 >Task 9: Create the export feature for financial reports 
 >Description: Implement a feature that allows users to export financial reports in various file formats, including CSV and Excel. 
 >Assignee: Front-end Developer 
 >Labels: Export, Front-end, Feature 
->Due Date: 8 weeks from sprint start date
+>Due Date: 4 weeks from sprint start date
 
 >Task 10: Conduct final testing and bug fixing before deployment 
 >Description: Perform comprehensive testing and bug fixing to ensure that the software is stable and meets all requirements before deployment. 
 >Assignee: Quality Assurance Engineer 
 >Labels: Testing, Quality Assurance, Deployment 
->Due Date: 9 weeks from sprint start date
+>Due Date: 4 weeks from sprint start date
 
 <br/>
 
