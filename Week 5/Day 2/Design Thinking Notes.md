@@ -1,10 +1,10 @@
-Design Thinking 
+# Design Thinking 
 
 Design thinking is a creative method developed at Stanford University to solve problems that helps us take certain steps to reach new effective solutions that improve the way we work, our view of things and the way we interact with others. 
 
 Design thinking depends on a set of steps that can be summarized in five or six steps that we will present in the following, and we point out here that these steps are not a global standard that must be followed, but they are effective for most people and easy for them to deal with, because not every manager, for example, is creative. Therefore, practical steps must be developed for everyone, while creative people can create their own design that effectively addresses problems. 
 
-🧠Create Persona 
+## 🧠Create Persona 
 
 Design thinking is a bit like a food recipe. If you want to cook in a way that the connoisseur will like, you must follow some recommendations. The first recommendation in the design thinking process is self-understanding and passion, which are necessary to launch projects, face challenges, and be able to understand and persuade others. What is the GOAL & INTERESTS! 
 
@@ -12,7 +12,7 @@ Design thinking is a bit like a food recipe. If you want to cook in a way that t
 ![](./objectif_diagram.png)
 
 
-😇 Empathy 
+## 😇 Empathy 
 
 It is important to know the people whose problems we are going to work on. We must also know the challenges that these people face and look at the problem from the same angle from which they see it. We must know what their deep feelings are and what they suffer from exactly. Here we must be careful not to confuse sympathy with pity. Empathy is to put ourselves in the place of the other and feel what he feels. As for compassion, it is to regret the situation of the other without understanding the depth of the problem and what the person feels. 
 
@@ -34,13 +34,13 @@ Now, to reach stakeholders we can use several methods as for example: 
 -   I would love that you share other methods with me, dear reader. 
     
 
-🎯 Define the challenge 
+## 🎯 Define the challenge 
 
 We must determine the problem by looking at the effects of this problem and understanding the causes that generate this problem, then detect the cause that contributes to the majority of the effects, and we design our model to solve it. Of course if it is a small problem we can attack all the causes, but in complex systems it becomes more complicated to attack the whole problem. 
 
 ![](./cause-effect-tree.png)
 
-🧠Create solution 
+## 🧠Create solution 
 
 -   Brainstorming. 
     
@@ -51,7 +51,7 @@ We must determine the problem by looking at the effects of this problem and unde
 -   Define the life cycle of the solution. 
     
 
-🗞 Prototyping 
+## 🗞 Prototyping 
 
 It is a step that saves us a lot of effort and resources. It is a simple initial idea or a simplified model for an innovative solution. 
 
@@ -62,7 +62,7 @@ It is a step that saves us a lot of effort and resources. It is a simple initial
 -   A prototype can also be an experiment, where we allow the customer to try our product, such as a web application. 
     
 
-📈Review, Optimization 
+## 📈Review, Optimization 
 
 -   Present the solution to the people involved. 
     
