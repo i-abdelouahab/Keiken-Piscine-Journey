@@ -54,13 +54,13 @@ Refers to the ability to reason and solve novel problems independent of previous
 >An example of a task that measures fluid intelligence is the Raven's Progressive Matrices.
 
 <div>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Raven_Matrix.svg/800px-Raven_Matrix.svg.png" style="display:flex;width:300px;height:200px;background-color:#eee;border-radius:5px;padding:10px;"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Raven_Matrix.svg/800px-Raven_Matrix.svg.png" style="width:300px;height:200px;background-color:#eee;border-radius:5px;padding:10px;"/>
 </div>
 
 >Or a pretty hot example:
 <div>
-<a href="https://regexcrossword.com/" >Regex Crossword Website</a>
-<img src="https://regexcrossword.com/img/logo-social.png" style="display:flex;width:300px;height:200px;background-color:#eee;border-radius:5px;padding:10px;"/>
+<h3><a href="https://regexcrossword.com/" >Regex Crossword Website</a></h3>
+<img src="https://regexcrossword.com/img/logo-social.png" style="width:300px;height:200px;background-color:#eee;border-radius:5px;padding:10px;"/>
 </div>
 
 
@@ -84,8 +84,8 @@ Refers to the speed and accuracy with which an individual can perform cognitive 
 ## 📰 Cognitive Tests
 
 <div>
-<a href="https://www.cambridgecognition.com/cantab/cognitive-tests/" >Cambridge Cognitive Tests</a>
-<img src="https://www.cambridgecognition.com/images/logos/cambridge-cognition-logo.png" style="display:flex;width:300px;height:200px;background-color:#eee;border-radius:5px;padding:10px;"/>
+<h3><a href="https://www.cambridgecognition.com/cantab/cognitive-tests/" >Cambridge Cognitive Tests</a></h3>
+<img src="https://www.cambridgecognition.com/images/logos/cambridge-cognition-logo.png" style="width:300px;height:200px;background-color:#eee;border-radius:5px;padding:10px;"/>
 </div>
 
 
