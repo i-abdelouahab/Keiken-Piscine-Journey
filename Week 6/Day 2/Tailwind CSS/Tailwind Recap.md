@@ -210,12 +210,13 @@ Add your compiled CSS file to the `<head>` and start using Tailwind’s utilit
 </html>
 ```
 
-![[tailwind-3.png]]
+![](tailwind-3.png)
 
 Checkout my simple restaurant responsive page:
 🔗 Source code: https://github.com/ismail-abdelouahab-git/simple-taillwind-app
 
 Here is a demo of the page, is it delicious  ? 😋
+If no preview is available, please check it here https://github.com/ismail-abdelouahab-git/Keiken-Piscine-Journey/blob/main/Week%206/Day%202/Tailwind%20CSS/tailwind-4.mp4
 ![](tailwind-4.mp4)
 
 
